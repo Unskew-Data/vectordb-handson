@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vectordb-blog"
+version = "0.1.0"
+description = ""
+authors = ["Shaurya Rawat <shauryarawat241994@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "vectordb_blog" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+atlassian-python-api = "^3.41.13"
+openai = "^1.30.3"
+qdrant-client = "^1.9.1"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.7"
+langchain = "^0.2.1"
+langchain-qdrant = "^0.1.0"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
